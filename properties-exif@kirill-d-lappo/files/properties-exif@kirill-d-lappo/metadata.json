@@ -1,0 +1,7 @@
+{
+    "description": "Shows file properties via Exif tool. Icon by FlatIcon: https://www.flaticon.com/free-icons/information",
+    "uuid": "properties-exif@kirill-d-lappo",
+    "name": "File properties via Exif",
+    "author": "kirill-d-lappo",
+    "version": "1.0.0"
+}

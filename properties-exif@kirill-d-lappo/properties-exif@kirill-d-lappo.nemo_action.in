@@ -1,0 +1,12 @@
+[Nemo Action]
+_Name=File properties...
+_Comment=Shows file properties via Exif tool
+Exec=<properties-exif@kirill-d-lappo/properties-exif@kirill-d-lappo.sh %F>
+Selection=any
+Extensions=any;
+Icon-Name=notes
+Dependencies=exif;sed;zenity
+Quote=single
+
+# Everywhere except Desktop context menu
+Conditions=exec sh -c '[ "$(systemd-path user-desktop)" != "%f" ]';
