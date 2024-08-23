@@ -9,5 +9,6 @@ DEPENDENCIES
 The following programs must be installed and available:
 
 * `exif`
-* `zentry`
+* `yad`
 * `sed`
+* `sort`

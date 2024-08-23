@@ -5,7 +5,7 @@ Exec=<properties-exif@kirill-d-lappo/properties-exif@kirill-d-lappo.sh %F>
 Selection=any
 Extensions=any;
 Icon-Name=notes
-Dependencies=exif;sed;zenity
+Dependencies=exif;sed;yad;sort
 Quote=single
 
 # Everywhere except Desktop context menu
